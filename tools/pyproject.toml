@@ -1,0 +1,23 @@
+[project]
+name = "jpml-site-tools"
+version = "0.1.0"
+description = "Image generation for the JPML website"
+readme = "README.md"
+authors = [
+    { name = "Clove Twilight", email = "admin@doughmination.win" }
+]
+requires-python = ">=3.14"
+dependencies = ["pillow>=11"]
+license = "MIT"
+
+[project.scripts]
+images = "site_tools.images:main"
+banner = "site_tools.banner:main"
+square = "site_tools.square:main"
+
+[tool.uv.build-backend]
+module-name = "site_tools"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,10 @@
+# Python tooling
+tools/.venv/
+__pycache__/
+*.py[cod]
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

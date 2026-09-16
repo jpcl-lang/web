@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+    <title>Not found | JPML</title>
+    <meta name="description" content="That page does not exist.">
+    <meta name="robots" content="noindex, follow">
+
+    <meta name="theme-color" content="#0a1a2e" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#fffaf6" media="(prefers-color-scheme: light)">
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" href="/assets/img/svg/icon.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/img/png/icon.png" type="image/png" sizes="128x128">
+    <!-- Theme, before first paint, so a chosen theme never flashes the other one. -->
+    <script>
+        try {
+            const saved = localStorage.getItem("jpml-theme");
+            if (saved === "light" || saved === "dark") {
+                document.documentElement.dataset.theme = saved;
+            }
+        } catch { /* storage blocked: the system preference still applies */ }
+    </script>
+
+</head>
+
+<body>
+    <header class="topbar">
+        <a class="brand" href="/">
+            <picture>
+                <source srcset="/assets/img/svg/icon-light.svg" media="(prefers-color-scheme: light)">
+                <img src="/assets/img/svg/icon.svg" alt="" width="32" height="32">
+            </picture>
+            <span>JPML<span class="ext">&thinsp;/&thinsp;.jp</span></span>
+        </a>
+        <nav>
+            <a href="/#format">Format</a>
+            <a href="/#packages">Packages</a>
+            <a href="/#cli">CLI</a>
+            <a href="https://github.com/jpml-lang">GitHub</a>
+            <button class="theme-toggle" type="button" id="theme-toggle" hidden>
+                <span class="to-light">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.3M12 19.1v2.3M2.6 12h2.3M19.1 12h2.3M5.3 5.3l1.7 1.7M17 17l1.7 1.7M18.7 5.3L17 7M7 17l-1.7 1.7"/></svg>
+                    Light
+                </span>
+                <span class="to-dark">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.3A8.5 8.5 0 1 1 9.7 3.5a6.8 6.8 0 0 0 10.8 10.8Z"/></svg>
+                    Dark
+                </span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="wrap centered">
+        <p class="eyebrow">404</p>
+        <h1>No such path</h1>
+        <p class="lede">
+            Nothing is here. The <a href="/">front page</a> has the format, the packages and the
+            command line tool.
+        </p>
+
+        <figure class="code">
+            <figcaption class="code-head">
+                <span class="name">jpml get</span>
+            </figcaption>
+            <pre><code><span class="s-dim">$</span> jpml get site.jp <span class="s-string">"pages.this_one"</span>
+<span class="s-error">KeyError: 'this_one'</span></code></pre>
+        </figure>
+    </main>
+
+    <footer>
+        <div class="wrap footer-inner">
+            <p class="colophon">JPML is free software under the MIT licence.</p>
+        </div>
+    </footer>
+    <script src="/assets/js/main.js" defer></script>
+</body>
+
+</html>
