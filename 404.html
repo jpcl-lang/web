@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
-    <title>Not found | JPML</title>
+    <title>Not found | JPCL</title>
     <meta name="description" content="That page does not exist.">
     <meta name="robots" content="noindex, follow">
 
@@ -18,7 +18,7 @@
     <!-- Theme, before first paint, so a chosen theme never flashes the other one. -->
     <script>
         try {
-            const saved = localStorage.getItem("jpml-theme");
+            const saved = localStorage.getItem("jpcl-theme");
             if (saved === "light" || saved === "dark") {
                 document.documentElement.dataset.theme = saved;
             }
@@ -34,13 +34,13 @@
                 <source srcset="/assets/img/svg/icon-light.svg" media="(prefers-color-scheme: light)">
                 <img src="/assets/img/svg/icon.svg" alt="" width="32" height="32">
             </picture>
-            <span>JPML<span class="ext">&thinsp;/&thinsp;.jp</span></span>
+            <span>JPCL<span class="ext">&thinsp;/&thinsp;.jp</span></span>
         </a>
         <nav>
             <a href="/#format">Format</a>
             <a href="/#packages">Packages</a>
             <a href="/#cli">CLI</a>
-            <a href="https://github.com/jpml-lang">GitHub</a>
+            <a href="https://github.com/jpcl-lang">GitHub</a>
             <button class="theme-toggle" type="button" id="theme-toggle" hidden>
                 <span class="to-light">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.3M12 19.1v2.3M2.6 12h2.3M19.1 12h2.3M5.3 5.3l1.7 1.7M17 17l1.7 1.7M18.7 5.3L17 7M7 17l-1.7 1.7"/></svg>
@@ -64,16 +64,16 @@
 
         <figure class="code">
             <figcaption class="code-head">
-                <span class="name">jpml get</span>
+                <span class="name">jpcl get</span>
             </figcaption>
-            <pre><code><span class="s-dim">$</span> jpml get site.jp <span class="s-string">"pages.this_one"</span>
+            <pre><code><span class="s-dim">$</span> jpcl get site.jp <span class="s-string">"pages.this_one"</span>
 <span class="s-error">KeyError: 'this_one'</span></code></pre>
         </figure>
     </main>
 
     <footer>
         <div class="wrap footer-inner">
-            <p class="colophon">JPML is free software under the MIT licence.</p>
+            <p class="colophon">JPCL is free software under the MIT licence.</p>
         </div>
     </footer>
     <script src="/assets/js/main.js" defer></script>

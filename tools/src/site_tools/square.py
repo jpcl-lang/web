@@ -36,12 +36,12 @@ def render(root: Path) -> Image.Image:
     # nudging a font size cannot quietly unbalance the card.
     rows = [
         (None, None, None, 0),
-        ("JPML", canvas.sans("Bold", 152), TEXT, 54),
+        ("JPCL", canvas.sans("Bold", 152), TEXT, 54),
         ("TOML’s sections.", canvas.sans("SemiBold", 52), SAKURA, 40),
         ("JSON’s nesting.", canvas.sans("SemiBold", 52), SAKURA, 14),
         ("A configuration language", canvas.sans("Regular", 34), MUTED, 44),
         ("for files people edit by hand.", canvas.sans("Regular", 34), MUTED, 10),
-        ("pip install jpml    npm install jpml-lang",
+        ("pip install jpcl    npm install jpcl",
          canvas.sans("Medium", 30), MOMO, 52),
     ]
 

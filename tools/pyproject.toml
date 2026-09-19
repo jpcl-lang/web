@@ -1,7 +1,7 @@
 [project]
-name = "jpml-site-tools"
+name = "jpcl-site-tools"
 version = "0.1.0"
-description = "Image generation for the JPML website"
+description = "Image generation for the JPCL website"
 readme = "README.md"
 authors = [
     { name = "Clove Twilight", email = "admin@doughmination.win" }

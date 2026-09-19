@@ -1,10 +1,10 @@
-# jpml-lang website
+# jpcl-lang website
 
-A static site for JPML.
+A static site for JPCL.
 
 ## Images
 
-The icons come from [`jpml-lang/assets`](https://github.com/jpml-lang/assets).
+The icons come from [`jpcl-lang/assets`](https://github.com/jpcl-lang/assets).
 The 1280×640 Open Graph card is generated rather than drawn by hand, from the
 same palette the stylesheet uses:
 

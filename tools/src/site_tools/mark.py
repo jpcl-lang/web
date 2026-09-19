@@ -1,8 +1,8 @@
-"""The JPML mark, redrawn from icon.svg's own 128-unit grid.
+"""The JPCL mark, redrawn from icon.svg's own 128-unit grid.
 
 Compositing the 128px PNG would blur the moment anything wants it larger, so the
 shapes are reproduced instead. The coordinates below are lifted straight from
-`jpml-lang/assets` — keep them in step if the icon is ever redrawn.
+`jpcl-lang/assets` — keep them in step if the icon is ever redrawn.
 """
 
 from __future__ import annotations

@@ -55,7 +55,7 @@ def render(root: Path) -> Image.Image:
     s, draw = canvas.s, canvas.draw
 
     mark.draw(draw, 80, 116, 104, scale=s)
-    draw.text((s(212), s(168)), "JPML", font=canvas.sans("Bold", 100),
+    draw.text((s(212), s(168)), "JPCL", font=canvas.sans("Bold", 100),
               fill=TEXT, anchor="lm")
 
     draw.text((s(80), s(288)), "TOML’s sections.",
@@ -67,9 +67,9 @@ def render(root: Path) -> Image.Image:
     draw.text((s(80), s(446)), "files people edit by hand.",
               font=canvas.sans("Regular", 26), fill=MUTED, anchor="la")
 
-    draw.text((s(80), s(524)), "pip install jpml",
+    draw.text((s(80), s(524)), "pip install jpcl",
               font=canvas.sans("Medium", 24), fill=MOMO, anchor="la")
-    draw.text((s(310), s(524)), "npm install jpml-lang",
+    draw.text((s(310), s(524)), "npm install jpcl",
               font=canvas.sans("Medium", 24), fill=MOMO, anchor="la")
 
     # Sized to its six lines and centred against the left column, rather than

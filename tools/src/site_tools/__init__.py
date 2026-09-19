@@ -1,1 +1,1 @@
-"""Image generation for the JPML website."""
+"""Image generation for the JPCL website."""

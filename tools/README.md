@@ -1,8 +1,8 @@
-# jpml-site-tools
+# jpcl-site-tools
 
 Generators for the images the site cannot express as CSS. Everything here reads
 its colours from `site_tools.palette`, so the output cannot drift from the
-stylesheet or from the [brand assets](https://github.com/jpml-lang/assets).
+stylesheet or from the [brand assets](https://github.com/jpcl-lang/assets).
 
 ```bash
 uv run --project tools banner              # -> assets/img/png/banner.png
@@ -15,7 +15,7 @@ the working directory does not matter.
 | Module | |
 | --- | --- |
 | `palette.py` | The brand colours, with their traditional names. |
-| `mark.py` | The JPML mark, redrawn from `icon.svg`'s 128-unit grid. |
+| `mark.py` | The JPCL mark, redrawn from `icon.svg`'s 128-unit grid. |
 | `banner.py` | The 1280×640 Open Graph card. |
 
 The mark is redrawn rather than composited from `icon.png`, which is only 128px

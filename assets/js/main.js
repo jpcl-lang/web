@@ -9,7 +9,7 @@
    without JavaScript never shows a control that cannot do anything. */
 
 (() => {
-    const KEY = "jpml-theme";
+    const KEY = "jpcl-theme";
     const root = document.documentElement;
     const button = document.getElementById("theme-toggle");
     if (!button) return;
