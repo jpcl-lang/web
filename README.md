@@ -1,6 +1,6 @@
 # jpcl-lang website
 
-A static site for JPCL.
+A static site for JPCL
 
 ## Images
 
